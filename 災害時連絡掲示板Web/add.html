@@ -9,17 +9,23 @@
     
 </head>
 <body>
-    <h2>（会社の名前）<br>災害時連絡掲示板</h2>
+    <h2 class="CName">（会社の名前）<br />災害時連絡掲示板</h2>
     <p class="title">追加</p>
-    <p>新社員の情報を教えてください。</p>
+    <p class="Stitle">新社員の情報を教えてください。</p>
 
-    <label for="staffName">社員の名前 </label>
-    <input type="text" name="staffName" id="staffName" required><br>
-
-    <label for="department">部門</label>
-    <input type="password" name="department" id="department" required><br>
-    
-    <input type="submit" value="新人登録" class="LoginSub">
+    <div class="inputform">
+        <table>
+            <tr>
+                <td><label for="staffName">社員の名前：</label></td>
+                <td><input class="inputText" type="text" name="staffName" id="staffName" required><br></tr>
+            </tr>
+            <tr>
+                <td><label for="department">部門：</label></td>
+                <td><input class="inputText" type="password" name="department" id="department" required><br></td>
+            </tr>
+        </table>
+    </div>
+    <div><input type="submit" value="新社員登録" class="LoginSub"></div>
 </body>
     <div class="footer">
         <a href="./manage.html"><img src="./Left.png" width="100px"></a>

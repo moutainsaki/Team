@@ -1,14 +1,30 @@
 *{
     font-family: 'inter';
+    list-style: none;
 }
 
-div, h1, h2, h3,.choose{
+div, h1, h2, h3{
     text-align: center;
     margin: 10px;
 }
 
-.Login label{
+.choose{
+    text-align: center;
+    padding: 12px 0px;
+}
+
+h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.CName{
+    padding-top: 30px;
+}
+
+label{
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .title{
@@ -59,17 +75,34 @@ p{
     color:#ffffff;
     background-color: #585858;
 }
-#staffid, #password{
-    padding: 12px;
+
+
+.Cen{
+    margin-top: 50px;
+}
+
+.inputform,.Cen{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0;
+}
+
+td{
+    margin: 5px 0;
+}
+
+.inputText{
+    padding: 12px 18px;
     border: 1px solid #ccc;
     border-radius: 50px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
     resize: vertical;
 }
 
 .LoginSub{
+    text-align: center;
     background-color: #F46780;
     font-size: 16px;
     color: white;
@@ -107,15 +140,25 @@ p{
 }
 .allsitbtn:hover{background-color: #f0ea74;}
 
+
 .footer{
-    margin-top: 100px;
+    margin-top: 80px;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     align-items: center;
     justify-content: center;
     padding: 10px;
 }
-
 .footer img{
     padding: 0 100px;
+}
+
+.SafeMessage{
+    padding-top: 30px;
+    padding-bottom: 130px;
+}
+
+.Stitle{
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
