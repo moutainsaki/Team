@@ -111,7 +111,7 @@ td{
     border-radius: 4px;
     cursor: pointer;
 }
-.LoginSub:hover{background: #d65b72;}
+.LoginSub:hover,.LoginSub:active{background: #d65b72;}
 
 .Logoutbtn,.managebtn{
     border: none;
@@ -124,7 +124,7 @@ td{
     background-color: #585858;
 }
 
-.Logoutbtn:hover,.managebtn:hover,.add,.del{
+.Logoutbtn:hover,.managebtn:hover,.Logoutbtn:active,.managebtn:active,.add,.del{
     background-color: #3c3c3c;
 }
 
@@ -138,7 +138,7 @@ td{
     color:#585858;
     background-color: #efe974;
 }
-.allsitbtn:hover{background-color: #f0ea74;}
+.allsitbtn:hover,.allsitbtn:active{background-color: #f0ea74;}
 
 
 .footer{
@@ -161,4 +161,21 @@ td{
 .Stitle{
     padding-top: 30px;
     padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+  .choose,input{
+    width: 100%;
+  }
+  .footer h3{
+    font-size: 16px;
+    width: 150px;
+  }
+  .footer{
+    margin-top: 50px;
+  }
+  .SafeMessage{
+    padding-bottom: 90px;
+  }
 }
