@@ -1,27 +1,27 @@
-import style from "../styles/situation.module.css";
+import styles from "../styles/situation.module.css";
 const situation4 = () => {
     return (
-        <div className={style.container}>
+        <div className={styles.container}>
             <div>
-                <h1 className={style.title}>安否登録</h1>
-                <p className={style.text}>けがの度合は？</p>
+                <h1 className={styles.title}>安否登録</h1>
+                <p className={styles.text}>けがの度合は？</p>
             </div>
 
             <form action="" method="post">
                 <div>
-                    <input className={style.safe} type="button" value="軽症" onClick="../pages/situation3.js"></input>
+                    <input className={styles.safe} type="button" value="軽症" onClick="../pages/situation3.js"></input>
                 </div>
                 <div>
-                    <input className={style.dangerous} type="button" value="重症" onClick="../pages/situation3.js"></input>
+                    <input className={styles.dangerous} type="button" value="重症" onClick="../pages/situation3.js"></input>
                 </div>
             </form>
 
-            <div className={style.img}>
+            <div className={styles.img}>
                 <a href="../pages/situation3"><img src="../img/Left.png" width="100px"></img></a>
                 <h3>システムの状況</h3>
                 <a href="../pages/page.js"><img src="../img/Right.png" width="100px"></img></a>
             </div>
-            <hr class="hr"></hr>
+            <hr className={styles.hr}></hr>
         </div>
     );
 }
