@@ -1,4 +1,4 @@
-export default function menu() {
+export default function add() {
   return (
     <>
       <p className="title">メニュー</p>
@@ -10,7 +10,7 @@ export default function menu() {
           src="allsit.php"
         />
       </div>
-      
+
       <div className="choose">
         <input type="button" value="管理" className="managebtn" />
       </div>
