@@ -1,4 +1,4 @@
-import style from "../styles/situation.module.css"
+import style from "../styles/situation.module.css";
 const situation4 = () => {
     return (
         <div className={style.container}>
@@ -8,12 +8,12 @@ const situation4 = () => {
             </div>
 
             <form action="" method="post">
-                    <div>
-                        <input className={style.safe} type="button" value="軽症です" onClick="../pages/situation3.js"></input>
-                    </div>
-                    <div>
-                        <input className={style.dangerous} type="button" value="重症あり" onClick="../pages/situation3.js"></input>
-                    </div>
+                <div>
+                    <input className={style.safe} type="button" value="軽症" onClick="../pages/situation3.js"></input>
+                </div>
+                <div>
+                    <input className={style.dangerous} type="button" value="重症" onClick="../pages/situation3.js"></input>
+                </div>
             </form>
 
             <div className={style.img}>
