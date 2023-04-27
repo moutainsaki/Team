@@ -19,7 +19,6 @@ export default function page() {
                     <input className={styles.logout} type="button" value="ログアウト" onClick="../pages"></input>
                 </div>
           </form>
-          <hr className={styles.hr2}></hr>
         </div>
         <hr className={styles.hr}></hr>
     </div>
