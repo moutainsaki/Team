@@ -3,10 +3,7 @@
   list-style: none;
 }
 
-div,
-h1,
-h2,
-h3 {
+div,h1,h2,h3 {
   text-align: center;
   margin: 10px;
 }
@@ -86,6 +83,15 @@ p {
 
 .Cen {
   margin-top: 50px;
+}
+
+.inputform,
+.Cen {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 0;
 }
 
 td {
