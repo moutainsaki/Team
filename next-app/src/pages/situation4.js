@@ -21,7 +21,7 @@ const situation4 = () => {
                 <h3>システムの状況</h3>
                 <a href="../pages/page.js"><img src="../img/Right.png" width="100px"></img></a>
             </div>
-            <hr class="hr"></hr>
+            <hr className={style.hr}></hr>
         </div>
     );
 }
